@@ -1,0 +1,43 @@
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  !                                                           !
+  !            DAILY INSOLATION (DINSOL-v1.0) MODEL           !
+  !                                                           !
+  !  Universidade Federal do Vale do Sao Francisco - UNIVASF  !
+  !            Laboratorio de Meteorologia - LABMET           !
+  !                                                           !
+  !                        NAMELIST                           !
+  !                                                           !
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+&inputs
+
+ ! PRIMARY VARIABLES 
+
+ YEAR       =    0       ,    ! Year for orbital parameters
+ S0         =    1366    ,    ! Solar constant [W/m^2]
+ NY         =    36      ,    ! Latitudinal number points
+ NX         =    72      ,    ! Longitudinal number points
+
+ NTIME      =    1       ,    ! NTIME = 1 -> 6  hours
+                              ! NTIME = 2 -> 3  hours
+                              ! NTIME = 3 -> 1  hours
+                              ! NTIME = 4 -> 30 minutes
+                              ! NTIME = 5 -> 15 minutes
+
+ CALENDAR   =    1       ,    ! CALENDAR = 1 -> 365 days
+                              ! CALENDAR = 2 -> 360 days
+
+ ! ORBITAL PARAMETERS - PARAMETERIZATIONS
+
+ ORBITAL    =    1       ,    ! ORBITAL = 1 -> Berger (1978)
+                              ! ORBITAL = 2 -> Berger and Loutre (1991)
+                              ! ORBITAL = 3 -> Laskar et al (2004; 2011)
+                              ! ORBITAL = 4 -> User-defined value
+
+ ! >>> IF ORBITAL = 4 THEN SET ECC, OBLQ AND PRCS <<< 
+
+ ECC        =    0.0167  ,    ! Eccentricity
+ OBLQ       =    23.446  ,    ! Obliquity [deg]
+ PRCS       =    282.04  ,    ! Precession [deg]
+/

@@ -1,0 +1,16 @@
+ Hello,
+
+ In this folder, there are two scripts: "gui_plot.R" and "replace.sh". 
+ The "gui_plot.R" is a custom script that makes graphs for GUI mode, 
+ but the GUI mode requires ready data for comparison with current days,
+ and the "replace.sh" build all this data. The "replace.sh" script 
+ was created for the users to update easily the data adopted in "gui_plot.R",
+ because if you wish to exchange your compiler, for example, then you'll 
+ need to update the current data with the "replace.sh". Note, the 
+ "replace.sh" make all data for a solar constant of 1366 W/m^2. Then,
+ if you intend to change this value, you should edit the "replace.sh"
+ file.
+
+ Best regards,
+
+ Emerson D. Oliveira

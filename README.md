@@ -2,6 +2,8 @@
 
 The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar radiation at the top of the atmosphere following the Milankovitch cycles. The program is ideal for preparing the boundary conditions of climate models, beyond to be a helpful tool for educational purposes. The program allows the user to design the solar radiation data using many options, such as setting the number of points of latitude and longitude, the solar constant, a calendar of 365 or 360 days, or choosing between the most famous parameterizations to the Earth orbital parameters (EOP): Be78, Be90, and Laskar. The users can also set the EOP freely, which allows simulating the solar radiation of hypothetical cases, such as exoplanets. Moreover, by adopting the graphical user interface (GUI), the users can run the tool intuitively and generate many windows containing the results individually. The most important advantage of adopting the DINSOL is to simulate the global solar radiation, which considers the effect of the Earth's rotation on incoming solar radiation by a realistic approach. Thus, the DINSOL is a good option for students, teachers, and researchers that needs to perform some scientific study or only want to teach about solar radiation for paleoclimatology, astronomy, mathematics, or any other geoscience area.
 
+Official DINSOL-v1.0 web page: http://labmet.univasf.edu.br/joomla/index.php/pesquisas/modelos-numericos
+
  ***************************************
  * INSTALLATION: EXTERNAL REQUIREMENTS 
  ***************************************
@@ -208,7 +210,11 @@ The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar
  Best regards,
 
  Ph.D. Emerson D. Oliveira
- Climatologist, Laboratório de Meteorologia (LabMet)
- Federal University of São Francisco Valley - UNIVASF
+ 
+ Climatologist, 
+ 
+ Laboratório de Meteorologia (LabMet) (http://labmet.univasf.edu.br/)
+ 
+ Federal University of São Francisco Valley - UNIVASF (https://portais.univasf.edu.br/)
 
 

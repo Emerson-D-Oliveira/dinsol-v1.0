@@ -3,7 +3,7 @@
 The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar radiation at the top of the atmosphere following the Milankovitch cycles. The program is ideal for preparing the boundary conditions of climate models, beyond to be a helpful tool for educational purposes. The program allows the user to design the solar radiation data using many options, such as setting the number of points of latitude and longitude, the solar constant, a calendar of 365 or 360 days, or choosing between the most famous parameterizations to the Earth orbital parameters (EOP): Be78, Be90, and Laskar. The users can also set the EOP freely, which allows simulating the solar radiation of hypothetical cases, such as exoplanets. Moreover, by adopting the graphical user interface (GUI), the users can run the tool intuitively and generate many windows containing the results individually. The most important advantage of adopting the DINSOL is to simulate the global solar radiation, which considers the effect of the Earth's rotation on incoming solar radiation by a realistic approach. Thus, the DINSOL is a good option for students, teachers, and researchers that needs to perform some scientific study or only want to teach about solar radiation for paleoclimatology, astronomy, mathematics, or any other geoscience area.
 
  ***************************************
- * INSTALLATION: EXTERNAL REQUIREMENTS *
+ * INSTALLATION: EXTERNAL REQUIREMENTS 
  ***************************************
 
  The DINSOL model requires the following external libraries:
@@ -26,7 +26,7 @@ The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar
 
  ---------------------------------------------------------------------------- 
  ***********************************************
- * SUPPORTED COMPILERS AND OPERATIONAL SYSTEMS *
+ * SUPPORTED COMPILERS AND OPERATIONAL SYSTEMS 
  ***********************************************
 
  We built DINSOL on different Fortran compilers (PGI, Intel, and GNU) 
@@ -37,7 +37,7 @@ The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar
 
  ----------------------------------------------------------------------------
  ************** 
- * INPUT DATA *
+ * INPUT DATA 
  **************
 
  In the input directory are the data that enter the subroutines that 
@@ -67,7 +67,7 @@ The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar
     
  ---------------------------------------------------------------------------- 
  *********************** 
- * COMPILING THE MODEL *
+ * COMPILING THE MODEL 
  ***********************
 
  After installing the required libraries, the users must go into folder
@@ -80,10 +80,10 @@ The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar
  
  ---------------------------------------------------------------------------- 
  *************** 
- * SIMULATIONS *
+ * SIMULATIONS 
  ***************
  
- ****-> Command lines <-*****
+ ***-> Command lines <-***
  
  In order to run the model, It only needs to type on the main directory:
 
@@ -93,7 +93,7 @@ The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar
  require only Make and Fortran compiler installation.
 
 
- ****-> Graphical User Interface (GUI) <-****
+ ***-> Graphical User Interface (GUI) <-***
  
  If you installed all the libraries correctly, the model must run easily 
  from GUI mode. Note that the text format and layout can change on different 
@@ -115,7 +115,7 @@ The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar
  
  ----------------------------------------------------------------------------   
  *************** 
- *  NAMELIST   *
+ *  NAMELIST   
  ***************
  
  YEAR  - The Year chosen by the user can be any integer number. Note: zero
@@ -168,32 +168,36 @@ The Daily INSOLationi (DINSOL-v1.0) is a model that simulates the incoming solar
            
  ----------------------------------------------------------------------------   
  ******************** 
- *  OUTPUT RESULTS  *
+ *  OUTPUT RESULTS  
  ********************
 
  The result files are made on output folder:
-
-    - solar.radiation / solar.radiation.ctl
-    - radiation / radiation.ctl
-    - insolation.txt
-    - summary.txt
+ 
+    -------------------------------------------------
+       - solar.radiation / solar.radiation.ctl
+       - radiation / radiation.ctl
+       - insolation.txt
+       - summary.txt
+    -------------------------------------------------    
 
  Note that some scripts are available to assist the users in analyzing the
  result files.
  
-    - get_dinsol_value.R
-    - plot_dinsol.R
-    - plot_global.R
-    - plot_dinsol.gs
-    - plot_radiation.gs
-    
+    ---------------------------------
+        - get_dinsol_value.R
+        - plot_dinsol.R
+        - plot_global.R
+        - plot_dinsol.gs
+        - plot_radiation.gs
+    ---------------------------------
+ 
  You must edit these templates in concordance with your interests. Note that
  ".gs" files are simple GrADS scripts.
  
  ----------------------------------------------------------------------------   
 
  ********************************************* 
- *  GO AHEAD AND USE/SHARE THE DINSOL MODEL  *
+ *  GO AHEAD AND USE/SHARE THE DINSOL MODEL  
  *********************************************
 
  We hope you enjoy the DINSOL model, and if you have any questions, please 

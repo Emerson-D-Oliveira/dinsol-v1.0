@@ -6,8 +6,6 @@
 !  #                  Universidade Federal do Vale do Sao Francisco - UNIVASF                #
 !  #                         Laboratorio de Meteorologia - LabMet                            #
 !  #                                                                                         #
-!  #                            GRAPHICAL USER INTERFACE - GUI                               #
-!  #                                                                                         #
 !  #                                                                                         #
 !  #    This program calculates the value of the earth's orbital parameters and the daily    #
 !  #    insolation for a given year.                                                         #

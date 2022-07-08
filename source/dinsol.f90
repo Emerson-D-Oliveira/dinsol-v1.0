@@ -15,7 +15,7 @@
 !  #    With this program, it is also possible to define the orbital parameters arbitrarily. #
 !  #    However, while respecting the intervals:                                             #
 !  #                                                                                         #
-!  #            ECCENTRICITY = [0,0.5] ; OBLIQUITY=[-90,90] ; PRECESSION=[0,360[             #
+!  #            ECCENTRICITY = [0:0.5] ; OBLIQUITY=[-90:90] ; PRECESSION=[0:360[             #
 !  #                                                                                         #
 !  #    The daily insolation is calculated according to Berger (1978).                       #
 !  #                                                                                         #

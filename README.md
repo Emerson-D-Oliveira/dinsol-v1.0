@@ -52,7 +52,7 @@ Official DINSOL-v1.0 web page: http://labmet.univasf.edu.br/joomla/index.php/pes
     ----------------------------------------------------------
          Université catholique de Louvain (UCLouvain):
 
-          André Berger, Michel Crucifix, Qiuzhen Yin.
+          Andre Berger, Michel Crucifix, Qiuzhen Yin.
 
         https://www.elic.ucl.ac.be/modx/index.php?id=83
    ----------------------------------------------------------

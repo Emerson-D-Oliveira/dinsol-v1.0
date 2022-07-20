@@ -65,9 +65,9 @@
  LatDay = z[,setDay]                  # Insolation for all latitudes [fixed Day]
  es=matrix(Rho,NY,NDAYS)              # Earth-Sun distance
  dist=es[latP,]
- eps=matrix(Decl,NY,NDAYS)            # Earth-sun obliquity       
+ eps=matrix(Decl,NY,NDAYS)            # Earth obliquity       
  epss=eps[latP,]
- nh=matrix(Sunshine,NY,NDAYS)         # Earth-sun obliquity       
+ nh=matrix(Sunshine,NY,NDAYS)         # Earth obliquity       
  NHH=eps[latP,]
 
  #################################### Basic graphs ########################################################

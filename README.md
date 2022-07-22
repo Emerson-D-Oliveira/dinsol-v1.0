@@ -141,7 +141,7 @@ Official DINSOL-v1.0 web page: http://labmet.univasf.edu.br/joomla/index.php/pes
          2 – 3 hours [0h ; 3h ; 6h ; 9h ; 12h; 15h ; 18h; 21h]
          3 – 1 hours [0h ; 1h ; 2h ; 3h ... 22h ; 23h]
          4 – 30 mn   [0h ; 0.5h ; 1.0h ; 1.5h ; 2.0h ... 23.0h ; 23.5h]
-         5 – 15 mn   0h ; 0.25h ; 0.5h ; 0.75h; 1.0h ... 23.5h ; 23.75h]
+         5 – 15 mn   [0h ; 0.25h ; 0.5h ; 0.75h; 1.0h ... 23.5h ; 23.75h]
 
  CALENDAR - Defines the number of days in the year:
 

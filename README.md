@@ -131,6 +131,7 @@ Official DINSOL-v1.0 web page: http://labmet.univasf.edu.br/joomla/index.php/pes
          ]0:10^8[
 
  NY    - Determines the number of latitude points.
+ 
  NX    - Determines the number of longitude points. 
 
  NTIME - Determines the time interval within 1 day, given in hours or 

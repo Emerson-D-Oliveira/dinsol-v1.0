@@ -28,7 +28,7 @@ Official DINSOL-v1.0 web page: http://labmet.univasf.edu.br/joomla/index.php/pes
 
  ---------------------------------------------------------------------------- 
  ***********************************************
- * SUPPORTED COMPILERS AND OPERATIONAL SYSTEMS 
+ * SUPPORTED COMPILERS AND OPERATING SYSTEM
  ***********************************************
 
  We built DINSOL on different Fortran compilers (PGI, Intel, and GNU) 

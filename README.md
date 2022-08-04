@@ -214,7 +214,7 @@ Official DINSOL-v1.0 web page: http://labmet.univasf.edu.br/joomla/index.php/pes
  
  Climatologist, 
  
- Laboratório de Meteorologia (LabMet) (http://labmet.univasf.edu.br/)
+ Laboratory of Meteorology (LabMet) (http://labmet.univasf.edu.br/)
  
  Federal University of Vale do São Francisco - UNIVASF (https://portais.univasf.edu.br/)
 

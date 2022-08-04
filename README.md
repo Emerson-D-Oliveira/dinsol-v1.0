@@ -216,6 +216,6 @@ Official DINSOL-v1.0 web page: http://labmet.univasf.edu.br/joomla/index.php/pes
  
  Laboratório de Meteorologia (LabMet) (http://labmet.univasf.edu.br/)
  
- Federal University of São Francisco Valley - UNIVASF (https://portais.univasf.edu.br/)
+ Federal University of Vale do São Francisco - UNIVASF (https://portais.univasf.edu.br/)
 
 
